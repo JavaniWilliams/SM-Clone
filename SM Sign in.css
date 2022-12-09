@@ -25,14 +25,22 @@ input {
 form input {
   display: flex;
   margin-top: 20px;
+  border-radius: 50px;
 }
 
 form {
   width: 300px;
-  margin-left: 100px;
+  margin-left: 90px;
 }
 
 button {
+  border-radius: 40px;
+  text-decoration: white;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 15px;
+  width: 68%;
+  cursor: pointer;
 }
 
 p {
