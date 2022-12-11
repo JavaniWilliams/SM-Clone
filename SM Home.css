@@ -55,3 +55,82 @@ body {
   margin-right: auto;
   padding: 0 10px;
 }
+
+.sidebar {
+  border-right: 1px solid;
+  flex: 0.2;
+  min-width: 250px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*feed*/
+.feed {
+  flex: 0.5;
+  border-right: 1px solid;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.feed_header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid;
+  padding: 15px 20px;
+}
+
+.feed_header h2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/*tweetbox*/
+.tweetbox_input img {
+  border-radius: 50%;
+  height: 40px;
+}
+
+.tweetbox {
+  padding-bottom: 10px;
+  border-bottom: 8px solid gainsboro;
+  padding-right: 10px;
+}
+
+.tweetbox form {
+  display: flex;
+  flex-direction: column;
+}
+.tweetbox_input {
+  display: flex;
+  padding: 20px;
+}
+
+.tweetbox_input input {
+  flex: 1;
+  margin-left: 40px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.tweetbox_tweetbutton {
+  background-color: aqua;
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
+}
