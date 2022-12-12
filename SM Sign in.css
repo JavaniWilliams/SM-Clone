@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: white;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -7,7 +7,7 @@ div {
   width: 360px;
   height: 620px;
   margin: auto;
-  background-color: white;
+  background-color: cornsilk;
 }
 
 h1 {
@@ -34,7 +34,7 @@ form {
 }
 
 button {
-  border-radius: 40px;
+  border-radius: 40px;.
   text-decoration: white;
   margin-top: 20px;
   border-radius: 50px;
@@ -45,4 +45,9 @@ button {
 
 p {
   text-align: center;
+  justify-content: center;
 }
+
+@media only screen and (min-device-width 375px)
+and (max-device-width 812px)
+and (orientation: portrait){}
