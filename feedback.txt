@@ -1,0 +1,78 @@
+File structure
+_ Pictures belong in an assets folder
+_ file names should follow camelCase or some-name conventions
+_ !! file names should NOT contain spaces !!
+Example:
+  assets/
+    clone-photo.png
+    nore.png
+    star-wars.png
+  sm-clone.html
+  sm-home.css
+  sm-home.html
+  sm-login.html
+  sm-signin.html
+
+SM Clone.html  (Sign-In pg)
+_ 1 in top-left corner
+_ clean layout
+_ improper input types
+  > Sign in with Apple
+  > Sign in with Google
+  > Forgot Password?
+_ Sign Up link does not redirect to sign-up pg
+_ Mobile view looks good
+
+SM Home.html
+_ Initial impression: Looks great!
+_ Search bar
+  -- good
+  -- accepts input
+_ Widget -- What's happening? 
+  -- Where did this come from?
+_ feed
+  - Tweet 
+    -- good
+    -- accepts input text
+    -- button 'submits' but no :hover states
+  - Posts
+    -- Looks good
+    -- Icons have not active state
+_ sidebar
+  -- Looks good overall
+  -- hover states in sidebar
+_ Send buttons
+  Good for post
+  ?? In sidebar
+_ !! No mobile view
+
+SM Log-in.html
+_ incorrect input types (same as in SM Clone.html)
+_ use correct for styles to center btns and texts
+  possible sln:
+  <form>
+    <fieldset>
+      <!-- Inputs, Btns -->
+    </fieldset>
+    <p> <!-- all that text --> </p>
+  </form>
+
+  form, fieldset {
+    margin: 0 auto;
+  }
+  p {
+    text-align: center;
+  }
+
+  Resource: https://www.w3schools.com/csS/css_align.asp
+
+
+Requirements:
+[G] Use Flexbox or Grid system layout for the basic structure of your elements
+[R] Be able to navigate to the different pages. For example, clicking on "Login" should bring me to the login page, filling out the information and clicking "login" should then lead me to the dashboard page. Then, clicking "logout" should bring me back to the home page.
+[R] You will have 4 pages that are responsive to screen sizes. Each page will include both mobile and desktop views.
+[Y] Separate your CSS files by pages. Do NOT have one giant CSS file
+
+_ Hardcode any text and don't worry about getting information from somewhere else (...for now)
+_ You CAN use reusable components from Bootstrap
+_ If you want to make something different from your mockup, that's fine, just don't change too much without keeping track of your changes and modifying the mockup if need be.
