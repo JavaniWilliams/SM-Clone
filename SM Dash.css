@@ -8,6 +8,7 @@ body {
   color: gray;
   background-color: white;
 }
+
 .sidebarOption {
   display: flex;
   align-items: center;
@@ -19,7 +20,7 @@ body {
 }
 
 .sidebarOption h2 {
-  font-weight: 800px;
+  font-weight: 800;
   font-size: 20px;
   margin-right: 20px;
 }
@@ -32,8 +33,7 @@ body {
 }
 
 body {
-  display: grid;
-  grid-template-columns: max-content;
+  display: flex;
   height: 100vh;
   max-width: 1300px;
   margin-left: auto;

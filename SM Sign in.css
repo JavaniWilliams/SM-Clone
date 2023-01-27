@@ -3,11 +3,11 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
-div {
+.signin-box {
   width: 360px;
   height: 620px;
   margin: auto;
-  background-color: cornsilk;
+  background-color: rgb(132, 131, 129);
 }
 
 h1 {
